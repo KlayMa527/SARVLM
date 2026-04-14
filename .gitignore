@@ -1,0 +1,98 @@
+*.swo
+*.sublime-project
+*.sublime-workspace
+.tags
+*.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+ENV/
+.env
+.venv
+pyvenv.cfg
+
+# Jupyter Notebook
+*.ipynb
+!README.ipynb  # 如果你希望保留某些 notebook，可取消注释此行并按需调整
+
+# 日志和输出
+logs/
+log/
+runs/                 # TensorBoard logs
+results/
+output/
+outputs/
+experiments/
+checkpoints/          # 通用 checkpoint 目录
+models/               # 通用模型目录（谨慎：若你有小模型代码可放 src/models，则保留）
+weights/
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.pb
+*.onnx
+*.bin
+*.safetensors
+
+# 数据集（按常见命名忽略）
+data/
+cache_data/
+cache_data_local/
+dataset/
+*.csv
+*.json
+*.txt
+*.xml
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tiff
+*.npy
+*.npz
+*.mat
+*.hdf5
+*.h5
+*.tar
+*.tar.gz
+*.zip
+*.7z
+
+# 临时文件
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# 分布式训练 / 多进程临时文件
+*.lock
+*.pid
+
+# DVC (Data Version Control) - 如果你用 DVC 管理数据
+.dvc/
+
+*.run
+*.pyc
+
+
